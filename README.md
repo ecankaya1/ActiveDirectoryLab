@@ -35,7 +35,7 @@ This project was created to simulate a basic enterprise Active Directory environ
 
 ### *1. Install Oracle VM VirtualBox*
 
-Navigate to https://www.virtualbox.org/wiki/Downloads, download the compatible version along with downloading the VirtualBox extention pack. <br>
+Navigate to https://www.virtualbox.org/wiki/Downloads, download the compatible version along with downloading the VirtualBox extension pack. <br>
 
 ### *2. Install Windows 10 ISO*
 
@@ -125,7 +125,7 @@ Navigate to https://www.microsoft.com/en-us/evalcenter/download-windows-server-2
 
 ![Dedicated admin member of](https://github.com/ecankaya1/ActiveDirectoryLab/blob/main/Images/Dedicated%20Admin%20Account%20Member%20Of.png)
 
-- You can now log off and log in as your dedidicated domain admin account. <br>
+- You can now log off and log in as your dedicated domain admin account. <br>
 
 ## Install RAS/NAT (Remote Access Server/Network Address Translation)
 
@@ -141,7 +141,7 @@ Navigate to https://www.microsoft.com/en-us/evalcenter/download-windows-server-2
 
 ![NAT select issue](https://github.com/ecankaya1/ActiveDirectoryLab/blob/main/Images/NAT%20install%20issue.png)
 
-- Select the adaptor that is labled internet. <br>
+- Select the adaptor that is labelled internet. <br>
 
 ![NAT select](https://github.com/ecankaya1/ActiveDirectoryLab/blob/main/Images/NAT%20install%20internet%20selection.png)
 
@@ -184,7 +184,7 @@ Navigate to https://www.microsoft.com/en-us/evalcenter/download-windows-server-2
 - In the command line in PowerShell ISE type 'Set-ExecutionPolicy Unrestricted' hit enter and click yes to all. <br>
 - In the command line you want to change the directory where the AD_PS-Master folder is saved, type 'cd C:\Users\a-ecankaya\Desktop\AD_PS-Master', hit enter. <br>
 - If you type in 'ls' and hit enter you will see the 'names.txt' file is listed. <br>
-- In the toolbar, click play, this will run the script and lots of users will be created. (the script will set all the users usernames to their first intital of the first name and last name e.g. 'ecankaya' and the passwords to 'Password1') <br>
+- In the toolbar, click play, this will run the script and lots of users will be created. (the script will set all the users usernames to their first initial of the first name and last name e.g. 'ecankaya' and the passwords to 'Password1') <br>
 
 ![PS Script](https://github.com/ecankaya1/ActiveDirectoryLab/blob/main/Images/PS%20Users%20Script.png)
 
@@ -239,14 +239,14 @@ Navigate to https://www.microsoft.com/en-us/evalcenter/download-windows-server-2
 
 ![AD client computer](https://github.com/ecankaya1/ActiveDirectoryLab/blob/main/Images/AD%20Computers%20OU.png)
 
-- Open the client VM as it should of finished restarting. <br>
+- Open the client VM as it should have finished restarting. <br>
 - Click log in as other user. <br>
 - Log in as the yourself (from when you added your name to the top of the PowerShell script) e.g. username will be 'ecankaya' and the password will be 'Password1' <br>
 - When logged in, naviage to Command Prompt (CMD) and in the command line type 'whoami'. <br>
 
 ![whoami](https://github.com/ecankaya1/ActiveDirectoryLab/blob/main/Images/Signing%20In%20User%20On%20Client.png)
 
-- The Active Directory Lab will now be succesfully setup to simulate a small corporate network. <br>
+- The Active Directory Lab will now be successfully setup to simulate a small corporate network. <br>
 
 
 
